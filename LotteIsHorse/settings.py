@@ -32,7 +32,7 @@ ALLOWED_HOSTS = ['django-env.eba-cvhk3pnq.ap-northeast-2.elasticbeanstalk.com']
 INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
-    'model.apps.ModelConfig',
+    # 'model.apps.ModelConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

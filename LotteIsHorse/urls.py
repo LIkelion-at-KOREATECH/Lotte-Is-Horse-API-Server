@@ -25,5 +25,5 @@ urlpatterns = [
     path('', admin.site.urls),
     
     # Including another URLconf
-    path('api/', include('model.urls')),
+    #path('api/', include('model.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
